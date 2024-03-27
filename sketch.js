@@ -1,7 +1,9 @@
 let bubbles = [];
 
 function setup() {
-  createCanvas(600, 400);
+  var canvas = createCanvas(600, 400);
+
+  canvas.parent('project');
 
   for (let i = 0; i < 10; i++) {
   let x = random(width);
